@@ -10,6 +10,7 @@ setup(
     version=version,
     description="Package for parsing Microsoft Shell Link (.lnk) files",
     long_description = long_description,
+    long_description_content_type="text/markdown",
     author="Lee Kamentsky",
     packages=["shelllnk"],
     entry_points = dict(
@@ -19,6 +20,8 @@ setup(
     url="https://github.com/leekamentsky/shelllnk",
     license="MIT",
     classifiers=[
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
         "Development Status :: 5 - Production/Stable",
         "Programming Language :: Python :: 3"
     ]
